@@ -7,7 +7,8 @@ A framework for creating a local copy of API data and keeping it up to date.
 Simplest form of command usage. Provide an adapter object for the API entity we want to retrieve and store. Provide a
 param object that filters API request to only what we're interested in (dmertl's checkins).
 
-    stockpile.stockpile(Foursquare.Checkin, {'user': 'dmertl'})
+    from stockpile import stockpile, Foursquare
+    stockpile(Foursquare.Checkin, {'user': 'dmertl'})
     
 The adapter object needs to provide a mapping from API response to DB model data (SQLAlchemy?).
 
