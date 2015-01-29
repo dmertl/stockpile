@@ -119,3 +119,8 @@ SQLAlchemy model for a foursquare checkin. Can convert from foursquare response 
 ### Foursquare.model.venue
 
 SQLAlchemy model for a foursquare venue. Can convert from foursquare response to model data using field whitelist.
+
+## TODO
+
+- Add setup.py listing to create proper python package
+ - SQLAlchemy

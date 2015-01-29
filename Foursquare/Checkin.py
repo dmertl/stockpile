@@ -1,3 +1,5 @@
+from Model import Checkin, Venue, Category
+
 """
 Stockpile Foursquare checkins.
 """
@@ -19,10 +21,10 @@ def stockpile(user='self'):
         'afterTimestamp': _get_last_timestamp(),
         'offset': 0
     }
-    stockpile_loop(user, params)
+    _stockpile_loop(user, params)
 
 
-def stockpile_loop(user, params):
+def _stockpile_loop(user, params):
     """
     TODO: better name
 
@@ -58,19 +60,24 @@ def _get_checkins(user, params):
 
 def save(response):
     """
-    TODO: Link up with SQLAlchemy
 
     :param response: Checkin data from API response.
     :type response: dict
     """
-    checkin = Model.Checkin.fromResponse(response)
-    # TODO: Do we need to save venue separately from checkin? Or will SQL alchemy handle it for us?
-    checkin.venue = Model.Venue.fromResponse(response['venue'])
-    categories = []
-    for category_response in response['categories']:
-        categories += Model.Category.fromResponse(category_response)
-    venue.categories = categories
-    # TODO: Implement a shared method for doing insert/update checks
+    checkin = Checkin(**response)
+    #TODO: Implement a base method to check for existing records and update or inset
+    session.add(checkin)
+    try:
+        venue = Venue(**response['venue'])
+        checkin.venue = venue
+        session.add(venue)
+        for category_response in response['venue']['categories']:
+            category = Category(**category_response)
+            session.add(category)
+            venue.categories.append(category)
+    except KeyError:
+        pass
+    session.flush()
 
 
 def _get_last_timestamp():
