@@ -22,6 +22,17 @@ class FoursquareBase(Base):
                 continue
 
 
+class User(FoursquareBase):
+    """
+    Foursquare user model.
+    """
+    __tablename__ = 'users'
+
+    id = Column(String(24), primary_key=True)
+    firstName = Column(String(128))
+    lastName = Column(String(128))
+
+
 class Checkin(FoursquareBase):
     """
     Foursquare checkin model.
@@ -31,8 +42,10 @@ class Checkin(FoursquareBase):
     id = Column(String(24), primary_key=True)
     createdAt = Column(Integer)
     shout = Column(String(128))
+    user_id = Column(String(24), ForeignKey('users.id'))
     venue_id = Column(String(24), ForeignKey('venues.id'))
 
+    user = relationship('User', backref=backref('checkins'))
     venue = relationship('Venue', backref=backref('checkins'))
 
 

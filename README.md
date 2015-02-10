@@ -124,3 +124,7 @@ SQLAlchemy model for a foursquare venue. Can convert from foursquare response to
 
 - Add setup.py listing to create proper python package
  - SQLAlchemy
+ - foursquare
+- Unit tests
+ - Stockpile until returned count < requested count
+ - Stockpile until returned date > requested date
