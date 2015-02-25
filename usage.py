@@ -2,22 +2,26 @@ from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
 from Foursquare import Checkin
 import foursquare
+import config
 
 engine = create_engine('sqlite:///foursquare.sqlite')
 Session = sessionmaker(bind=engine)
 session = Session()
 
 api = foursquare.Foursquare(
-    client_id='',
-    client_secret='',
-    redirect_uri='http://dmertl.com/test/dump.php')
+    client_id=config.settings['foursquare']['client_id'],
+    client_secret=config.settings['foursquare']['client_secret'],
+    redirect_uri=config.settings['foursquare']['redirect_uri'])
 
 # Get access token from oauth token
 # access_token = api.oauth.get_token('')
 # print "Access_token: '{0}'".format(access_token)
 
 # Once you have access token
-api.set_access_token('')
+try:
+    api.set_access_token(config.debug['foursquare']['access_token'])
+except KeyError:
+    pass
 
 try:
     Checkin.db = session
