@@ -79,19 +79,16 @@ def save(response):
     :type response: dict
     """
     checkin = Checkin(**response)
-    #TODO: Implement a base method to check for existing records and update or inset
-    db.add(checkin)
     try:
         venue = Venue(**response['venue'])
         checkin.venue = venue
-        db.add(venue)
         for category_response in response['venue']['categories']:
             category = Category(**category_response)
-            db.add(category)
             venue.categories.append(category)
     except KeyError:
         pass
-    db.flush()
+    db.merge(checkin)
+    db.commit()
 
 
 def _get_last_timestamp(user_id):
