@@ -1,10 +1,10 @@
-from Model import Checkin, Venue, Category
+from Model import Checkin, Venue, Category, Base
 
 """
 Stockpile Foursquare checkins.
 """
 
-# TODO: Limit should move into API
+# TODO: Limit should always be set to max allowed by the API. Setting should be for all of Foursqaure, not just Checkin.
 limit = 250
 
 # TODO: Better way to set db and api
@@ -18,6 +18,11 @@ def stockpile(USER_ID='self'):
     :param USER_ID: Foursquare user to stockpile checkins for.
     :type USER_ID: str
     """
+    # Ensure DB schema is present
+    #TODO: Make sure this doesn't drop existing tables
+    Base.metadata.create_all(db)
+
+    #TODO: Create User model and pass to stockpile for saving chekcins
     if USER_ID == 'self':
         user = api.users()
         user_id = user['user']['id']
@@ -40,7 +45,7 @@ def stockpile(USER_ID='self'):
 
 def _stockpile_loop(user_id, params):
     """
-    TODO: better name
+    TODO: better function name
 
     :param user_id: Foursquare user to stockpile checkins for.
     :type user_id: str
