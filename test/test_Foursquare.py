@@ -14,7 +14,7 @@ class Test(unittest.TestCase):
         # Create connection to test DB
         # TODO: Move test DB creation and cleanup into somewhere shareable
         os.remove('data/test_foursquare.sqlite')
-        engine = create_engine('sqlite:///data/test_foursquare.sqlite')
+        engine = create_engine('sqlite:///db/test_foursquare.sqlite')
         Session = sessionmaker(bind=engine)
         session = Session()
         Model.Base.metadata.create_all(engine)
