@@ -1,0 +1,1851 @@
+{
+  "meta": {"code": 200},
+  "notifications": [
+    {
+      "type": "notificationTray",
+      "item": {"unreadCount": 0}
+    }
+  ],
+  "response": {
+    "checkins": {
+      "count": 4269,
+      "items": [
+        {
+          "id": "548904eb498edbd77fa30e78",
+          "createdAt": 1418265835,
+          "type": "checkin",
+          "shout": "🎄🎨",
+          "timeZoneOffset": -480,
+          "venue": {
+            "id": "521e894411d2d80b37744966",
+            "name": "deviantART",
+            "contact": {
+              "twitter": "deviantart",
+              "facebook": "6452638289",
+              "facebookUsername": "deviantart",
+              "facebookName": "deviantART.com"
+            },
+            "location": {
+              "address": "7095 Hollywood Blvd",
+              "lat": 34.10213942555089,
+              "lng": -118.34502696990965,
+              "postalCode": "90028",
+              "cc": "US",
+              "city": "Los Angeles",
+              "state": "CA",
+              "country": "United States",
+              "formattedAddress": [
+                "7095 Hollywood Blvd",
+                "Los Angeles, CA 90028"
+              ]
+            },
+            "categories": [
+              {
+                "id": "4bf58dd8d48988d124941735",
+                "name": "Office",
+                "pluralName": "Offices",
+                "shortName": "Office",
+                "icon": {
+                  "prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/building\/default_",
+                  "suffix": ".png"
+                },
+                "primary": true
+              }
+            ],
+            "verified": true,
+            "stats": {
+              "checkinsCount": 85,
+              "usersCount": 22,
+              "tipCount": 0
+            },
+            "like": true,
+            "venuePage": {"id": "78943038"},
+            "storeId": ""
+          },
+          "likes": {
+            "count": 1,
+            "groups": [
+              {
+                "type": "friends",
+                "count": 1,
+                "items": [
+                  {
+                    "id": "83107235",
+                    "firstName": "Michael",
+                    "lastName": "Stepanian",
+                    "gender": "male",
+                    "relationship": "friend",
+                    "photo": {
+                      "prefix": "https:\/\/irs0.4sqi.net\/img\/user\/",
+                      "suffix": "\/83107235-RI1TC2TYNOSDMONO.jpg"
+                    }
+                  }
+                ]
+              }
+            ],
+            "summary": "Michael Stepanian"
+          },
+          "like": false,
+          "photos": {
+            "count": 0,
+            "items": []
+          },
+          "posts": {
+            "count": 0,
+            "textCount": 0
+          },
+          "comments": {"count": 0},
+          "source": {
+            "name": "Swarm for iOS",
+            "url": "https:\/\/www.swarmapp.com"
+          }
+        },
+        {
+          "id": "5488bdb1498e7821ee598f20",
+          "createdAt": 1418247601,
+          "type": "checkin",
+          "shout": "💰💰💰💰💰",
+          "timeZoneOffset": -480,
+          "venue": {
+            "id": "3fd66200f964a52040ef1ee3",
+            "name": "The Cat & Fiddle",
+            "contact": {
+              "phone": "3234683800",
+              "formattedPhone": "(323) 468-3800",
+              "twitter": "thecatandfiddle"
+            },
+            "location": {
+              "address": "6530 W Sunset Blvd",
+              "crossStreet": "at Seward St.",
+              "lat": 34.097591998746516,
+              "lng": -118.33277198659886,
+              "postalCode": "90028",
+              "cc": "US",
+              "city": "Los Angeles",
+              "state": "CA",
+              "country": "United States",
+              "formattedAddress": [
+                "6530 W Sunset Blvd (at Seward St.)",
+                "Los Angeles, CA 90028"
+              ]
+            },
+            "categories": [
+              {
+                "id": "4bf58dd8d48988d11b941735",
+                "name": "Pub",
+                "pluralName": "Pubs",
+                "shortName": "Pub",
+                "icon": {
+                  "prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/nightlife\/pub_",
+                  "suffix": ".png"
+                },
+                "primary": true
+              }
+            ],
+            "verified": true,
+            "stats": {
+              "checkinsCount": 10443,
+              "usersCount": 5557,
+              "tipCount": 81
+            },
+            "closed": true,
+            "url": "http:\/\/www.thecatandfiddle.com",
+            "like": true,
+            "venuePage": {"id": "34305835"}
+          },
+          "likes": {
+            "count": 1,
+            "groups": [
+              {
+                "type": "friends",
+                "count": 1,
+                "items": [
+                  {
+                    "id": "317182",
+                    "firstName": "grace",
+                    "lastName": "komjakraphan",
+                    "gender": "female",
+                    "relationship": "friend",
+                    "photo": {
+                      "prefix": "https:\/\/irs2.4sqi.net\/img\/user\/",
+                      "suffix": "\/FR4X5PJVST3LF32G.jpg"
+                    }
+                  }
+                ]
+              }
+            ],
+            "summary": "grace komjakraphan"
+          },
+          "like": false,
+          "photos": {
+            "count": 0,
+            "items": []
+          },
+          "posts": {
+            "count": 0,
+            "textCount": 0
+          },
+          "comments": {"count": 0},
+          "source": {
+            "name": "Swarm for iOS",
+            "url": "https:\/\/www.swarmapp.com"
+          }
+        },
+        {
+          "id": "5487e697498e1bc53c2a6463",
+          "createdAt": 1418192535,
+          "type": "checkin",
+          "shout": "Ordered a medium fat, this burger knows what's coming for it \u2014 with pinguino",
+          "entities": [
+            {
+              "id": "638",
+              "type": "user",
+              "indices": [
+                68,
+                76
+              ]
+            }
+          ],
+          "timeZoneOffset": -480,
+          "with": [
+            {
+              "id": "638",
+              "firstName": "pinguino",
+              "lastName": "kolb",
+              "gender": "female",
+              "relationship": "friend",
+              "photo": {
+                "prefix": "https:\/\/irs3.4sqi.net\/img\/user\/",
+                "suffix": "\/638_1236713151.jpg"
+              }
+            }
+          ],
+          "venue": {
+            "id": "4ad41848f964a52049e720e3",
+            "name": "Fatburger",
+            "contact": {
+              "phone": "8187698725",
+              "formattedPhone": "(818) 769-8725",
+              "twitter": "fatburger"
+            },
+            "location": {
+              "address": "10600 1\/2 Ventura Blvd",
+              "lat": 34.13707926283119,
+              "lng": -118.36364938794627,
+              "postalCode": "91604",
+              "cc": "US",
+              "city": "Studio City",
+              "state": "CA",
+              "country": "United States",
+              "formattedAddress": [
+                "10600 1\/2 Ventura Blvd",
+                "Studio City, CA 91604"
+              ]
+            },
+            "categories": [
+              {
+                "id": "4bf58dd8d48988d16c941735",
+                "name": "Burger Joint",
+                "pluralName": "Burger Joints",
+                "shortName": "Burgers",
+                "icon": {
+                  "prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/burger_",
+                  "suffix": ".png"
+                },
+                "primary": true
+              }
+            ],
+            "verified": true,
+            "stats": {
+              "checkinsCount": 1316,
+              "usersCount": 770,
+              "tipCount": 16
+            },
+            "hasMenu": true,
+            "like": false,
+            "menu": {
+              "type": "Menu",
+              "label": "Menu",
+              "anchor": "View Menu",
+              "url": "https:\/\/foursquare.com\/v\/fatburger\/4ad41848f964a52049e720e3\/menu",
+              "mobileUrl": "https:\/\/foursquare.com\/v\/4ad41848f964a52049e720e3\/device_menu"
+            },
+            "storeId": ""
+          },
+          "likes": {
+            "count": 0,
+            "groups": []
+          },
+          "like": false,
+          "sticker": {
+            "id": "52a65980000000000000000a",
+            "name": "Burger and drink",
+            "image": {
+              "prefix": "https:\/\/irs2.4sqi.net\/img\/sticker\/",
+              "sizes": [
+                60,
+                94
+              ],
+              "name": "\/fastfood_335737.png"
+            },
+            "stickerType": "unlockable",
+            "pickerPosition": {
+              "page": 1,
+              "index": 18
+            },
+            "teaseText": "You're order #176."
+          },
+          "photos": {
+            "count": 0,
+            "items": []
+          },
+          "posts": {
+            "count": 0,
+            "textCount": 0
+          },
+          "comments": {"count": 0},
+          "source": {
+            "name": "Swarm for iOS",
+            "url": "https:\/\/www.swarmapp.com"
+          }
+        },
+        {
+          "id": "5487b706498efd37281d3add",
+          "createdAt": 1418180358,
+          "type": "checkin",
+          "shout": "Christmas party \u2014 with pinguino",
+          "entities": [
+            {
+              "id": "638",
+              "type": "user",
+              "indices": [
+                23,
+                31
+              ]
+            }
+          ],
+          "timeZoneOffset": -480,
+          "with": [
+            {
+              "id": "638",
+              "firstName": "pinguino",
+              "lastName": "kolb",
+              "gender": "female",
+              "relationship": "friend",
+              "photo": {
+                "prefix": "https:\/\/irs3.4sqi.net\/img\/user\/",
+                "suffix": "\/638_1236713151.jpg"
+              }
+            }
+          ],
+          "venue": {
+            "id": "4a6cc0f0f964a52088d11fe3",
+            "name": "Universal Studios Hollywood",
+            "contact": {"twitter": "unistudios"},
+            "location": {
+              "address": "100 Universal City Pl.",
+              "lat": 34.13764750110852,
+              "lng": -118.35516530241873,
+              "postalCode": "91608",
+              "cc": "US",
+              "city": "Universal City",
+              "state": "CA",
+              "country": "United States",
+              "formattedAddress": [
+                "100 Universal City Pl.",
+                "Universal City, CA 91608"
+              ]
+            },
+            "categories": [
+              {
+                "id": "4bf58dd8d48988d182941735",
+                "name": "Theme Park",
+                "pluralName": "Theme Parks",
+                "shortName": "Theme Park",
+                "icon": {
+                  "prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/arts_entertainment\/themepark_",
+                  "suffix": ".png"
+                },
+                "primary": true
+              }
+            ],
+            "verified": true,
+            "stats": {
+              "checkinsCount": 64998,
+              "usersCount": 44291,
+              "tipCount": 506
+            },
+            "url": "http:\/\/t.co\/8KDtJukGWX",
+            "like": false,
+            "storeId": "",
+            "locked": true
+          },
+          "likes": {
+            "count": 1,
+            "groups": [
+              {
+                "type": "friends",
+                "count": 1,
+                "items": [
+                  {
+                    "id": "6688",
+                    "firstName": "Erin",
+                    "lastName": "K",
+                    "gender": "female",
+                    "relationship": "friend",
+                    "photo": {
+                      "prefix": "https:\/\/irs3.4sqi.net\/img\/user\/",
+                      "suffix": "\/6688_1237589389.jpg"
+                    }
+                  }
+                ]
+              }
+            ],
+            "summary": "Erin K"
+          },
+          "like": false,
+          "photos": {
+            "count": 0,
+            "items": []
+          },
+          "posts": {
+            "count": 0,
+            "textCount": 0
+          },
+          "comments": {"count": 0},
+          "source": {
+            "name": "Swarm for iOS",
+            "url": "https:\/\/www.swarmapp.com"
+          }
+        },
+        {
+          "id": "54875f3a498e720534d3cb0c",
+          "createdAt": 1418157882,
+          "type": "checkin",
+          "timeZoneOffset": -480,
+          "venue": {
+            "id": "4a3acb5bf964a52041a01fe3",
+            "name": "Subway",
+            "contact": {
+              "phone": "3239627823",
+              "formattedPhone": "(323) 962-7823",
+              "twitter": "subway"
+            },
+            "location": {
+              "address": "6660 W Sunset Blvd",
+              "crossStreet": "Cherokee",
+              "lat": 34.09760696,
+              "lng": -118.335857,
+              "postalCode": "90028",
+              "cc": "US",
+              "city": "Los Angeles",
+              "state": "CA",
+              "country": "United States",
+              "formattedAddress": [
+                "6660 W Sunset Blvd (Cherokee)",
+                "Los Angeles, CA 90028"
+              ]
+            },
+            "categories": [
+              {
+                "id": "4bf58dd8d48988d1c5941735",
+                "name": "Sandwich Place",
+                "pluralName": "Sandwich Places",
+                "shortName": "Sandwiches",
+                "icon": {
+                  "prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/deli_",
+                  "suffix": ".png"
+                },
+                "primary": true
+              }
+            ],
+            "verified": true,
+            "stats": {
+              "checkinsCount": 1221,
+              "usersCount": 377,
+              "tipCount": 17
+            },
+            "url": "http:\/\/subway.com",
+            "hasMenu": true,
+            "like": false,
+            "menu": {
+              "type": "Menu",
+              "label": "Menu",
+              "anchor": "View Menu",
+              "url": "https:\/\/foursquare.com\/v\/subway\/4a3acb5bf964a52041a01fe3\/menu",
+              "mobileUrl": "https:\/\/foursquare.com\/v\/4a3acb5bf964a52041a01fe3\/device_menu"
+            }
+          },
+          "likes": {
+            "count": 0,
+            "groups": []
+          },
+          "like": false,
+          "sticker": {
+            "id": "52a65980000000000000001f",
+            "name": "Sandwich",
+            "image": {
+              "prefix": "https:\/\/irs0.4sqi.net\/img\/sticker\/",
+              "sizes": [
+                60,
+                94
+              ],
+              "name": "\/sub_a6c2db.png"
+            },
+            "stickerType": "default",
+            "pickerPosition": {
+              "page": 1,
+              "index": 21
+            }
+          },
+          "photos": {
+            "count": 0,
+            "items": []
+          },
+          "posts": {
+            "count": 0,
+            "textCount": 0
+          },
+          "comments": {"count": 0},
+          "source": {
+            "name": "Swarm for iOS",
+            "url": "https:\/\/www.swarmapp.com"
+          }
+        },
+        {
+          "id": "54867737498ef22ceb1e1cd2",
+          "createdAt": 1418098487,
+          "type": "checkin",
+          "shout": "🌲🍃🍃🍃",
+          "timeZoneOffset": -480,
+          "venue": {
+            "id": "49b8ad14f964a52047531fe3",
+            "name": "Pinguhouse 2: Electric Igloo",
+            "contact": {},
+            "location": {
+              "isFuzzed": true,
+              "lat": 34.14542407552884,
+              "lng": -118.3637264271307,
+              "cc": "US",
+              "city": "Studio City",
+              "state": "CA",
+              "country": "United States",
+              "formattedAddress": [
+                "Vineland",
+                "Studio City, CA 91604"
+              ]
+            },
+            "categories": [
+              {
+                "id": "4bf58dd8d48988d103941735",
+                "name": "Home (private)",
+                "pluralName": "Homes (private)",
+                "shortName": "Home",
+                "icon": {
+                  "prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/building\/home_",
+                  "suffix": ".png"
+                },
+                "primary": true
+              }
+            ],
+            "verified": false,
+            "stats": {
+              "checkinsCount": 515,
+              "usersCount": 54,
+              "tipCount": 8
+            },
+            "like": true
+          },
+          "likes": {
+            "count": 0,
+            "groups": []
+          },
+          "like": false,
+          "photos": {
+            "count": 0,
+            "items": []
+          },
+          "posts": {
+            "count": 0,
+            "textCount": 0
+          },
+          "comments": {"count": 0},
+          "source": {
+            "name": "Swarm for iOS",
+            "url": "https:\/\/www.swarmapp.com"
+          }
+        },
+        {
+          "id": "548670c0498e5887a5ea73ff",
+          "createdAt": 1418096832,
+          "type": "checkin",
+          "shout": "🌲",
+          "timeZoneOffset": -480,
+          "venue": {
+            "id": "50b82343e4b0cbe640bdb171",
+            "name": "Toluca Lake Christmas Tree Farm",
+            "contact": {},
+            "location": {
+              "lat": 34.1524837627609,
+              "lng": -118.36201729027526,
+              "postalCode": "91602",
+              "cc": "US",
+              "city": "North Hollywood",
+              "state": "CA",
+              "country": "United States",
+              "formattedAddress": ["North Hollywood, CA 91602"]
+            },
+            "categories": [
+              {
+                "id": "4eb1c0253b7b52c0e1adc2e9",
+                "name": "Garden Center",
+                "pluralName": "Garden Centers",
+                "shortName": "Garden Center",
+                "icon": {
+                  "prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/parks_outdoors\/gardencenter_",
+                  "suffix": ".png"
+                },
+                "primary": true
+              }
+            ],
+            "verified": false,
+            "stats": {
+              "checkinsCount": 32,
+              "usersCount": 26,
+              "tipCount": 0
+            },
+            "like": false
+          },
+          "likes": {
+            "count": 0,
+            "groups": []
+          },
+          "like": false,
+          "photos": {
+            "count": 0,
+            "items": []
+          },
+          "posts": {
+            "count": 0,
+            "textCount": 0
+          },
+          "comments": {"count": 0},
+          "source": {
+            "name": "Swarm for iOS",
+            "url": "https:\/\/www.swarmapp.com"
+          }
+        },
+        {
+          "id": "5486193b498e2b1b3dff4ab6",
+          "createdAt": 1418074427,
+          "type": "checkin",
+          "timeZoneOffset": -480,
+          "venue": {
+            "id": "3fd66200f964a52040ef1ee3",
+            "name": "The Cat & Fiddle",
+            "contact": {
+              "phone": "3234683800",
+              "formattedPhone": "(323) 468-3800",
+              "twitter": "thecatandfiddle"
+            },
+            "location": {
+              "address": "6530 W Sunset Blvd",
+              "crossStreet": "at Seward St.",
+              "lat": 34.097591998746516,
+              "lng": -118.33277198659886,
+              "postalCode": "90028",
+              "cc": "US",
+              "city": "Los Angeles",
+              "state": "CA",
+              "country": "United States",
+              "formattedAddress": [
+                "6530 W Sunset Blvd (at Seward St.)",
+                "Los Angeles, CA 90028"
+              ]
+            },
+            "categories": [
+              {
+                "id": "4bf58dd8d48988d11b941735",
+                "name": "Pub",
+                "pluralName": "Pubs",
+                "shortName": "Pub",
+                "icon": {
+                  "prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/nightlife\/pub_",
+                  "suffix": ".png"
+                },
+                "primary": true
+              }
+            ],
+            "verified": true,
+            "stats": {
+              "checkinsCount": 10443,
+              "usersCount": 5557,
+              "tipCount": 81
+            },
+            "closed": true,
+            "url": "http:\/\/www.thecatandfiddle.com",
+            "like": true,
+            "venuePage": {"id": "34305835"}
+          },
+          "likes": {
+            "count": 0,
+            "groups": []
+          },
+          "like": false,
+          "sticker": {
+            "id": "53fe77d24b9048855b3648b4",
+            "name": "Knife and fork",
+            "image": {
+              "prefix": "https:\/\/irs3.4sqi.net\/img\/sticker\/",
+              "sizes": [
+                60,
+                94
+              ],
+              "name": "\/knifefork_7f7e89.png"
+            },
+            "stickerType": "unlockable",
+            "pickerPosition": {
+              "page": 1,
+              "index": 16
+            },
+            "teaseText": "Help yourself to this locally-sourced, small-batch, grass-fed, artisinal sticker."
+          },
+          "photos": {
+            "count": 0,
+            "items": []
+          },
+          "posts": {
+            "count": 0,
+            "textCount": 0
+          },
+          "comments": {"count": 0},
+          "source": {
+            "name": "Swarm for iOS",
+            "url": "https:\/\/www.swarmapp.com"
+          }
+        },
+        {
+          "id": "5485e211498ea8e784671a88",
+          "createdAt": 1418060305,
+          "type": "checkin",
+          "shout": "📈",
+          "timeZoneOffset": -480,
+          "venue": {
+            "id": "4bdd1a3f645e0f471be56a19",
+            "name": "ONZRA - Hollywood Office",
+            "contact": {
+              "phone": "3234761331",
+              "formattedPhone": "(323) 476-1331",
+              "twitter": "onzra"
+            },
+            "location": {
+              "address": "6464 W Sunset Blvd #775",
+              "crossStreet": "at Schrader Blvd",
+              "lat": 34.09773289693436,
+              "lng": -118.3312940597534,
+              "postalCode": "90028",
+              "cc": "US",
+              "city": "Hollywood",
+              "state": "CA",
+              "country": "United States",
+              "formattedAddress": [
+                "6464 W Sunset Blvd #775 (at Schrader Blvd)",
+                "Hollywood, CA 90028"
+              ]
+            },
+            "categories": [
+              {
+                "id": "4bf58dd8d48988d124941735",
+                "name": "Office",
+                "pluralName": "Offices",
+                "shortName": "Office",
+                "icon": {
+                  "prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/building\/default_",
+                  "suffix": ".png"
+                },
+                "primary": true
+              }
+            ],
+            "verified": false,
+            "stats": {
+              "checkinsCount": 574,
+              "usersCount": 34,
+              "tipCount": 2
+            },
+            "url": "http:\/\/www.onzra.com",
+            "like": true
+          },
+          "likes": {
+            "count": 0,
+            "groups": []
+          },
+          "like": false,
+          "photos": {
+            "count": 0,
+            "items": []
+          },
+          "posts": {
+            "count": 0,
+            "textCount": 0
+          },
+          "comments": {"count": 0},
+          "source": {
+            "name": "Swarm for iOS",
+            "url": "https:\/\/www.swarmapp.com"
+          }
+        },
+        {
+          "id": "5485d67a498edf9fe7cbe953",
+          "createdAt": 1418057338,
+          "type": "checkin",
+          "shout": "📦",
+          "timeZoneOffset": -480,
+          "venue": {
+            "id": "4bdd1675f219c9b62ff61110",
+            "name": "The UPS Store",
+            "contact": {
+              "phone": "8185092988",
+              "formattedPhone": "(818) 509-2988",
+              "facebook": "1449142622034838",
+              "facebookUsername": "theupsstore",
+              "facebookName": "The UPS Store"
+            },
+            "location": {
+              "address": "11271 Ventura Blvd",
+              "lat": 34.14109893,
+              "lng": -118.3763689,
+              "postalCode": "91604",
+              "cc": "US",
+              "city": "Studio City",
+              "state": "CA",
+              "country": "United States",
+              "formattedAddress": [
+                "11271 Ventura Blvd",
+                "Studio City, CA 91604"
+              ]
+            },
+            "categories": [
+              {
+                "id": "52f2ab2ebcbc57f1066b8b1f",
+                "name": "Shipping Store",
+                "pluralName": "Shipping Stores",
+                "shortName": "Shipping Store",
+                "icon": {
+                  "prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/shops\/default_",
+                  "suffix": ".png"
+                },
+                "primary": true
+              }
+            ],
+            "verified": true,
+            "stats": {
+              "checkinsCount": 570,
+              "usersCount": 95,
+              "tipCount": 2
+            },
+            "url": "http:\/\/studiocity-ca-2907.theupsstorelocal.com",
+            "like": false,
+            "storeId": "2907"
+          },
+          "likes": {
+            "count": 0,
+            "groups": []
+          },
+          "like": false,
+          "photos": {
+            "count": 0,
+            "items": []
+          },
+          "posts": {
+            "count": 0,
+            "textCount": 0
+          },
+          "comments": {"count": 0},
+          "source": {
+            "name": "Swarm for iOS",
+            "url": "https:\/\/www.swarmapp.com"
+          }
+        },
+        {
+          "id": "548542ba498ec08ec4c373c7",
+          "createdAt": 1418019514,
+          "type": "checkin",
+          "shout": "🐈🐈",
+          "timeZoneOffset": -480,
+          "venue": {
+            "id": "49b8ad14f964a52047531fe3",
+            "name": "Pinguhouse 2: Electric Igloo",
+            "contact": {},
+            "location": {
+              "isFuzzed": true,
+              "lat": 34.14542407552884,
+              "lng": -118.3637264271307,
+              "cc": "US",
+              "city": "Studio City",
+              "state": "CA",
+              "country": "United States",
+              "formattedAddress": [
+                "Vineland",
+                "Studio City, CA 91604"
+              ]
+            },
+            "categories": [
+              {
+                "id": "4bf58dd8d48988d103941735",
+                "name": "Home (private)",
+                "pluralName": "Homes (private)",
+                "shortName": "Home",
+                "icon": {
+                  "prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/building\/home_",
+                  "suffix": ".png"
+                },
+                "primary": true
+              }
+            ],
+            "verified": false,
+            "stats": {
+              "checkinsCount": 515,
+              "usersCount": 54,
+              "tipCount": 8
+            },
+            "like": true
+          },
+          "likes": {
+            "count": 0,
+            "groups": []
+          },
+          "like": false,
+          "photos": {
+            "count": 0,
+            "items": []
+          },
+          "posts": {
+            "count": 0,
+            "textCount": 0
+          },
+          "comments": {"count": 0},
+          "source": {
+            "name": "Swarm for iOS",
+            "url": "https:\/\/www.swarmapp.com"
+          }
+        },
+        {
+          "id": "54853705498ed6bfa560de65",
+          "createdAt": 1418016517,
+          "type": "checkin",
+          "shout": "If you order a medium drink does it tell you your future? \u2014 with pinguino",
+          "entities": [
+            {
+              "id": "638",
+              "type": "user",
+              "indices": [
+                65,
+                73
+              ]
+            }
+          ],
+          "timeZoneOffset": -480,
+          "with": [
+            {
+              "id": "638",
+              "firstName": "pinguino",
+              "lastName": "kolb",
+              "gender": "female",
+              "relationship": "friend",
+              "photo": {
+                "prefix": "https:\/\/irs3.4sqi.net\/img\/user\/",
+                "suffix": "\/638_1236713151.jpg"
+              }
+            }
+          ],
+          "venue": {
+            "id": "3fd66200f964a52092ee1ee3",
+            "name": "In-N-Out Burger",
+            "contact": {
+              "phone": "8007861000",
+              "formattedPhone": "(800) 786-1000",
+              "twitter": "innoutburger"
+            },
+            "location": {
+              "address": "9149 S Sepulveda Blvd",
+              "crossStreet": "at W 92nd St",
+              "lat": 33.953693952548974,
+              "lng": -118.39676812291145,
+              "postalCode": "90045",
+              "cc": "US",
+              "city": "Los Angeles",
+              "state": "CA",
+              "country": "United States",
+              "formattedAddress": [
+                "9149 S Sepulveda Blvd (at W 92nd St)",
+                "Los Angeles, CA 90045"
+              ]
+            },
+            "categories": [
+              {
+                "id": "4bf58dd8d48988d16c941735",
+                "name": "Burger Joint",
+                "pluralName": "Burger Joints",
+                "shortName": "Burgers",
+                "icon": {
+                  "prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/burger_",
+                  "suffix": ".png"
+                },
+                "primary": true
+              }
+            ],
+            "verified": true,
+            "stats": {
+              "checkinsCount": 32289,
+              "usersCount": 21285,
+              "tipCount": 235
+            },
+            "url": "http:\/\/www.in-n-out.com",
+            "like": true,
+            "storeId": "117"
+          },
+          "likes": {
+            "count": 1,
+            "groups": [
+              {
+                "type": "friends",
+                "count": 1,
+                "items": [
+                  {
+                    "id": "724",
+                    "firstName": "Keith",
+                    "lastName": "Myers",
+                    "gender": "male",
+                    "relationship": "friend",
+                    "photo": {
+                      "prefix": "https:\/\/irs2.4sqi.net\/img\/user\/",
+                      "suffix": "\/TGWSRS32BI1WVJPG.jpg"
+                    }
+                  }
+                ]
+              }
+            ],
+            "summary": "Keith Myers"
+          },
+          "like": false,
+          "sticker": {
+            "id": "52a65980000000000000000a",
+            "name": "Burger and drink",
+            "image": {
+              "prefix": "https:\/\/irs2.4sqi.net\/img\/sticker\/",
+              "sizes": [
+                60,
+                94
+              ],
+              "name": "\/fastfood_335737.png"
+            },
+            "stickerType": "unlockable",
+            "pickerPosition": {
+              "page": 1,
+              "index": 18
+            },
+            "teaseText": "You're order #176."
+          },
+          "photos": {
+            "count": 0,
+            "items": []
+          },
+          "posts": {
+            "count": 0,
+            "textCount": 0
+          },
+          "comments": {"count": 1},
+          "source": {
+            "name": "Swarm for iOS",
+            "url": "https:\/\/www.swarmapp.com"
+          }
+        },
+        {
+          "id": "54852ac6498e3fe0f78a0630",
+          "createdAt": 1418013382,
+          "type": "checkin",
+          "shout": "📛",
+          "timeZoneOffset": -480,
+          "venue": {
+            "id": "439ec330f964a520102c1fe3",
+            "name": "Los Angeles International Airport (LAX)",
+            "contact": {
+              "phone": "3106465252",
+              "formattedPhone": "(310) 646-5252",
+              "twitter": "flylaxairport",
+              "facebook": "74286767824",
+              "facebookUsername": "LAInternationalAirport",
+              "facebookName": "Los Angeles International Airport (LAX)"
+            },
+            "location": {
+              "address": "1 World Way",
+              "lat": 33.94389397698472,
+              "lng": -118.40502262115479,
+              "postalCode": "90045",
+              "cc": "US",
+              "city": "Los Angeles",
+              "state": "CA",
+              "country": "United States",
+              "formattedAddress": [
+                "1 World Way",
+                "Los Angeles, CA 90045"
+              ]
+            },
+            "categories": [
+              {
+                "id": "4bf58dd8d48988d1ed931735",
+                "name": "Airport",
+                "pluralName": "Airports",
+                "shortName": "Airport",
+                "icon": {
+                  "prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/travel\/airport_",
+                  "suffix": ".png"
+                },
+                "primary": true
+              }
+            ],
+            "verified": true,
+            "stats": {
+              "checkinsCount": 1553663,
+              "usersCount": 419657,
+              "tipCount": 3832
+            },
+            "url": "http:\/\/www.lawa.aero\/welcomeLAX.aspx",
+            "like": false,
+            "venuePage": {"id": "36185355"},
+            "storeId": "",
+            "locked": true
+          },
+          "likes": {
+            "count": 0,
+            "groups": []
+          },
+          "like": false,
+          "photos": {
+            "count": 0,
+            "items": []
+          },
+          "posts": {
+            "count": 0,
+            "textCount": 0
+          },
+          "comments": {"count": 0},
+          "source": {
+            "name": "Swarm for iOS",
+            "url": "https:\/\/www.swarmapp.com"
+          }
+        },
+        {
+          "id": "54850764498e71cb1901cf3c",
+          "createdAt": 1418004324,
+          "type": "checkin",
+          "shout": "with pinguino",
+          "entities": [
+            {
+              "id": "638",
+              "type": "user",
+              "indices": [
+                5,
+                13
+              ]
+            }
+          ],
+          "timeZoneOffset": -480,
+          "with": [
+            {
+              "id": "638",
+              "firstName": "pinguino",
+              "lastName": "kolb",
+              "gender": "female",
+              "relationship": "friend",
+              "photo": {
+                "prefix": "https:\/\/irs3.4sqi.net\/img\/user\/",
+                "suffix": "\/638_1236713151.jpg"
+              }
+            }
+          ],
+          "venue": {
+            "id": "49f5f596f964a520df6b1fe3",
+            "name": "Reno-Tahoe International Airport (RNO)",
+            "contact": {
+              "phone": "7753286400",
+              "formattedPhone": "(775) 328-6400",
+              "facebook": "115570966432",
+              "facebookUsername": "RenoAirport",
+              "facebookName": "Reno-Tahoe International Airport"
+            },
+            "location": {
+              "address": "2001 E Plumb Ln",
+              "lat": 39.50581220760866,
+              "lng": -119.77558851242065,
+              "postalCode": "89502",
+              "cc": "US",
+              "city": "Reno",
+              "state": "NV",
+              "country": "United States",
+              "formattedAddress": [
+                "2001 E Plumb Ln",
+                "Reno, NV 89502"
+              ]
+            },
+            "categories": [
+              {
+                "id": "4bf58dd8d48988d1ed931735",
+                "name": "Airport",
+                "pluralName": "Airports",
+                "shortName": "Airport",
+                "icon": {
+                  "prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/travel\/airport_",
+                  "suffix": ".png"
+                },
+                "primary": true
+              }
+            ],
+            "verified": true,
+            "stats": {
+              "checkinsCount": 56748,
+              "usersCount": 22849,
+              "tipCount": 195
+            },
+            "url": "http:\/\/renoairport.com",
+            "like": false,
+            "storeId": "",
+            "locked": true
+          },
+          "likes": {
+            "count": 0,
+            "groups": []
+          },
+          "like": false,
+          "sticker": {
+            "id": "543847324b909c2fb9aae4c0",
+            "name": "Party hat",
+            "image": {
+              "prefix": "https:\/\/irs1.4sqi.net\/img\/sticker\/",
+              "sizes": [
+                60,
+                94
+              ],
+              "name": "\/partyhat_7a0c22.png"
+            },
+            "stickerType": "unlockable",
+            "pickerPosition": {
+              "page": 0,
+              "index": 3
+            },
+            "teaseText": "Join the party! You'll unlock this on your first check-in."
+          },
+          "photos": {
+            "count": 0,
+            "items": []
+          },
+          "posts": {
+            "count": 0,
+            "textCount": 0
+          },
+          "comments": {"count": 0},
+          "source": {
+            "name": "Swarm for iOS",
+            "url": "https:\/\/www.swarmapp.com"
+          }
+        },
+        {
+          "id": "5484e80a498e2fe1ee8ce7bd",
+          "createdAt": 1417996298,
+          "type": "checkin",
+          "shout": "Après ski",
+          "timeZoneOffset": -480,
+          "venue": {
+            "id": "50db37dae4b0ca305724a6dc",
+            "name": "The Rumpus at Snotty Pines",
+            "contact": {},
+            "location": {
+              "lat": 39.04087448827573,
+              "lng": -119.94239622857204,
+              "postalCode": "89413",
+              "cc": "US",
+              "city": "Glenbrook",
+              "state": "NV",
+              "country": "United States",
+              "formattedAddress": ["Glenbrook, NV 89413"]
+            },
+            "categories": [
+              {
+                "id": "4bf58dd8d48988d11a941735",
+                "name": "Other Nightlife",
+                "pluralName": "Other Nightlife",
+                "shortName": "Nightlife",
+                "icon": {
+                  "prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/nightlife\/default_",
+                  "suffix": ".png"
+                },
+                "primary": true
+              }
+            ],
+            "verified": false,
+            "stats": {
+              "checkinsCount": 162,
+              "usersCount": 22,
+              "tipCount": 2
+            },
+            "like": false
+          },
+          "likes": {
+            "count": 0,
+            "groups": []
+          },
+          "like": false,
+          "sticker": {
+            "id": "53f28bf14b90933f78c3a699",
+            "name": "Cosmo cocktail glass",
+            "image": {
+              "prefix": "https:\/\/irs1.4sqi.net\/img\/sticker\/",
+              "sizes": [
+                60,
+                94
+              ],
+              "name": "\/cosmo_f9f9d2.png"
+            },
+            "stickerType": "default",
+            "pickerPosition": {
+              "page": 1,
+              "index": 4
+            }
+          },
+          "photos": {
+            "count": 0,
+            "items": []
+          },
+          "posts": {
+            "count": 0,
+            "textCount": 0
+          },
+          "comments": {"count": 0},
+          "source": {
+            "name": "Swarm for iOS",
+            "url": "https:\/\/www.swarmapp.com"
+          }
+        },
+        {
+          "id": "5484e30f498e0b3c847aae9c",
+          "createdAt": 1417995023,
+          "type": "checkin",
+          "shout": "Checking out",
+          "timeZoneOffset": -480,
+          "venue": {
+            "id": "5482e746498ee851711d04cf",
+            "name": "Christmas Dojo",
+            "contact": {},
+            "location": {
+              "lat": 39.00536961313902,
+              "lng": -119.94795293285792,
+              "cc": "US",
+              "city": "Zephyr Cove",
+              "state": "NV",
+              "country": "United States",
+              "formattedAddress": ["Zephyr Cove, NV"]
+            },
+            "categories": [
+              {
+                "id": "52e81612bcbc57f1066b79ec",
+                "name": "Salsa Club",
+                "pluralName": "Salsa Clubs",
+                "shortName": "Salsa Club",
+                "icon": {
+                  "prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/arts_entertainment\/performingarts_dancestudio_",
+                  "suffix": ".png"
+                },
+                "primary": true
+              }
+            ],
+            "verified": false,
+            "stats": {
+              "checkinsCount": 9,
+              "usersCount": 4,
+              "tipCount": 0
+            },
+            "like": false
+          },
+          "likes": {
+            "count": 0,
+            "groups": []
+          },
+          "like": false,
+          "sticker": {
+            "id": "52a65980000000000000000e",
+            "name": "mayor",
+            "image": {
+              "prefix": "https:\/\/irs0.4sqi.net\/img\/sticker\/",
+              "sizes": [
+                60,
+                94
+              ],
+              "name": "\/mayor_9be7d3.png"
+            },
+            "restricted": true,
+            "stickerType": "venueMayor"
+          },
+          "photos": {
+            "count": 0,
+            "items": []
+          },
+          "posts": {
+            "count": 0,
+            "textCount": 0
+          },
+          "comments": {"count": 0},
+          "source": {
+            "name": "Swarm for iOS",
+            "url": "https:\/\/www.swarmapp.com"
+          }
+        },
+        {
+          "id": "5484c8ef498ed039654d87b7",
+          "createdAt": 1417988335,
+          "type": "checkin",
+          "shout": "So high right now \u2014 with pinguino, patch, Kelly, Seric",
+          "entities": [
+            {
+              "id": "638",
+              "type": "user",
+              "indices": [
+                25,
+                33
+              ]
+            },
+            {
+              "id": "87408651",
+              "type": "user",
+              "indices": [
+                35,
+                40
+              ]
+            },
+            {
+              "id": "753",
+              "type": "user",
+              "indices": [
+                42,
+                47
+              ]
+            },
+            {
+              "id": "1423744893",
+              "type": "facebookUser",
+              "indices": [
+                49,
+                54
+              ]
+            }
+          ],
+          "timeZoneOffset": -480,
+          "with": [
+            {
+              "id": "638",
+              "firstName": "pinguino",
+              "lastName": "kolb",
+              "gender": "female",
+              "relationship": "friend",
+              "photo": {
+                "prefix": "https:\/\/irs3.4sqi.net\/img\/user\/",
+                "suffix": "\/638_1236713151.jpg"
+              }
+            },
+            {
+              "id": "87408651",
+              "firstName": "patch",
+              "lastName": "kinz",
+              "gender": "female",
+              "relationship": "friend",
+              "photo": {
+                "prefix": "https:\/\/irs2.4sqi.net\/img\/user\/",
+                "suffix": "\/87408651-VPSTKXQEALJW5KFC.jpg"
+              }
+            },
+            {
+              "id": "753",
+              "firstName": "Kelly",
+              "lastName": "Nous",
+              "gender": "female",
+              "relationship": "friend",
+              "photo": {
+                "prefix": "https:\/\/irs2.4sqi.net\/img\/user\/",
+                "suffix": "\/-LNRXBP5GPK0QZSWD.jpg"
+              }
+            }
+          ],
+          "venue": {
+            "id": "4d422f71aed776eb1a656a97",
+            "name": "Bar 9150' @ Tamarack Lodge",
+            "contact": {
+              "phone": "7755867000",
+              "formattedPhone": "(775) 586-7000",
+              "twitter": "skiheavenly"
+            },
+            "location": {
+              "address": "4080 Lake Tahoe Blvd.",
+              "lat": 38.93659091955156,
+              "lng": -119.90986464575137,
+              "postalCode": "89449",
+              "cc": "US",
+              "city": "Stateline",
+              "state": "CA",
+              "country": "United States",
+              "formattedAddress": [
+                "4080 Lake Tahoe Blvd.",
+                "Stateline, CA 89449"
+              ]
+            },
+            "categories": [
+              {
+                "id": "4bf58dd8d48988d1e9941735",
+                "name": "Ski Area",
+                "pluralName": "Ski Areas",
+                "shortName": "Ski Area",
+                "icon": {
+                  "prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/parks_outdoors\/ski_snowboard_",
+                  "suffix": ".png"
+                },
+                "primary": true
+              }
+            ],
+            "verified": true,
+            "stats": {
+              "checkinsCount": 748,
+              "usersCount": 590,
+              "tipCount": 8
+            },
+            "like": false,
+            "storeId": ""
+          },
+          "likes": {
+            "count": 3,
+            "groups": [
+              {
+                "type": "friends",
+                "count": 3,
+                "items": [
+                  {
+                    "id": "6688",
+                    "firstName": "Erin",
+                    "lastName": "K",
+                    "gender": "female",
+                    "relationship": "friend",
+                    "photo": {
+                      "prefix": "https:\/\/irs3.4sqi.net\/img\/user\/",
+                      "suffix": "\/6688_1237589389.jpg"
+                    }
+                  },
+                  {
+                    "id": "5925040",
+                    "firstName": "Christina",
+                    "lastName": "Shaban",
+                    "gender": "female",
+                    "relationship": "friend",
+                    "photo": {
+                      "prefix": "https:\/\/irs3.4sqi.net\/img\/user\/",
+                      "suffix": "\/AR2JNMSI4KGO3ZPF.jpg"
+                    }
+                  },
+                  {
+                    "id": "9510",
+                    "firstName": "Rattus",
+                    "gender": "male",
+                    "relationship": "friend",
+                    "photo": {
+                      "prefix": "https:\/\/irs0.4sqi.net\/img\/user\/",
+                      "suffix": "\/9510_1238819362.jpg"
+                    }
+                  }
+                ]
+              }
+            ],
+            "summary": "Erin K, Christina Shaban & Rattus"
+          },
+          "like": false,
+          "sticker": {
+            "id": "52a659800000000000000015",
+            "name": "Sunglasses",
+            "image": {
+              "prefix": "https:\/\/irs2.4sqi.net\/img\/sticker\/",
+              "sizes": [
+                60,
+                94
+              ],
+              "name": "\/sunglasses_02c1bc.png"
+            },
+            "stickerType": "unlockable",
+            "pickerPosition": {
+              "page": 0,
+              "index": 12
+            },
+            "teaseText": "Wow much sunlight."
+          },
+          "photos": {
+            "count": 0,
+            "items": []
+          },
+          "posts": {
+            "count": 0,
+            "textCount": 0
+          },
+          "comments": {"count": 0},
+          "source": {
+            "name": "Swarm for iOS",
+            "url": "https:\/\/www.swarmapp.com"
+          }
+        },
+        {
+          "id": "5484bc92498e3172fff8f736",
+          "createdAt": 1417985170,
+          "type": "checkin",
+          "timeZoneOffset": -480,
+          "createdBy": {
+            "id": "753",
+            "firstName": "Kelly",
+            "lastName": "Nous",
+            "gender": "female",
+            "relationship": "friend",
+            "photo": {
+              "prefix": "https:\/\/irs2.4sqi.net\/img\/user\/",
+              "suffix": "\/-LNRXBP5GPK0QZSWD.jpg"
+            }
+          },
+          "venue": {
+            "id": "4b098326f964a5208b1823e3",
+            "name": "Heavenly Gondola",
+            "contact": {
+              "phone": "7755867000",
+              "formattedPhone": "(775) 586-7000",
+              "twitter": "skiheavenly"
+            },
+            "location": {
+              "address": "4075 Lake Shore Blvd",
+              "lat": 38.95670572136157,
+              "lng": -119.94280815124512,
+              "postalCode": "96150",
+              "cc": "US",
+              "city": "South Lake Tahoe",
+              "state": "CA",
+              "country": "United States",
+              "formattedAddress": [
+                "4075 Lake Shore Blvd",
+                "South Lake Tahoe, CA 96150"
+              ]
+            },
+            "categories": [
+              {
+                "id": "4eb1c0ed3b7b52c0e1adc2ea",
+                "name": "Ski Chairlift",
+                "pluralName": "Ski Chairlifts",
+                "shortName": "Chairlift",
+                "icon": {
+                  "prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/parks_outdoors\/ski_chairlift_",
+                  "suffix": ".png"
+                },
+                "primary": true
+              }
+            ],
+            "verified": true,
+            "stats": {
+              "checkinsCount": 7041,
+              "usersCount": 4395,
+              "tipCount": 34
+            },
+            "like": false,
+            "storeId": ""
+          },
+          "likes": {
+            "count": 1,
+            "groups": [
+              {
+                "type": "friends",
+                "count": 1,
+                "items": [
+                  {
+                    "id": "149738",
+                    "firstName": "Erin",
+                    "lastName": "Scott",
+                    "gender": "male",
+                    "relationship": "friend",
+                    "photo": {
+                      "prefix": "https:\/\/irs1.4sqi.net\/img\/user\/",
+                      "suffix": "\/LSPXNYKLFJXCRUSN.jpg"
+                    }
+                  }
+                ]
+              }
+            ],
+            "summary": "Erin Scott"
+          },
+          "like": false,
+          "photos": {
+            "count": 0,
+            "items": []
+          },
+          "posts": {
+            "count": 0,
+            "textCount": 0
+          },
+          "comments": {"count": 0},
+          "source": {
+            "name": "Swarm for iOS",
+            "url": "https:\/\/www.swarmapp.com"
+          }
+        },
+        {
+          "id": "5484af1f498e9b5bcc073a0e",
+          "createdAt": 1417981727,
+          "type": "checkin",
+          "timeZoneOffset": -480,
+          "venue": {
+            "id": "5482e746498ee851711d04cf",
+            "name": "Christmas Dojo",
+            "contact": {},
+            "location": {
+              "lat": 39.00536961313902,
+              "lng": -119.94795293285792,
+              "cc": "US",
+              "city": "Zephyr Cove",
+              "state": "NV",
+              "country": "United States",
+              "formattedAddress": ["Zephyr Cove, NV"]
+            },
+            "categories": [
+              {
+                "id": "52e81612bcbc57f1066b79ec",
+                "name": "Salsa Club",
+                "pluralName": "Salsa Clubs",
+                "shortName": "Salsa Club",
+                "icon": {
+                  "prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/arts_entertainment\/performingarts_dancestudio_",
+                  "suffix": ".png"
+                },
+                "primary": true
+              }
+            ],
+            "verified": false,
+            "stats": {
+              "checkinsCount": 9,
+              "usersCount": 4,
+              "tipCount": 0
+            },
+            "like": false
+          },
+          "likes": {
+            "count": 0,
+            "groups": []
+          },
+          "like": false,
+          "sticker": {
+            "id": "52a659800000000000000006",
+            "name": "Coffee cup",
+            "image": {
+              "prefix": "https:\/\/irs0.4sqi.net\/img\/sticker\/",
+              "sizes": [
+                60,
+                94
+              ],
+              "name": "\/coffee_aec6b8.png"
+            },
+            "stickerType": "default",
+            "pickerPosition": {
+              "page": 1,
+              "index": 6
+            }
+          },
+          "photos": {
+            "count": 0,
+            "items": []
+          },
+          "posts": {
+            "count": 0,
+            "textCount": 0
+          },
+          "comments": {"count": 0},
+          "source": {
+            "name": "Swarm for iOS",
+            "url": "https:\/\/www.swarmapp.com"
+          }
+        },
+        {
+          "id": "54843a15498e0694b0f56f5a",
+          "createdAt": 1417951765,
+          "type": "checkin",
+          "timeZoneOffset": -480,
+          "venue": {
+            "id": "5482e746498ee851711d04cf",
+            "name": "Christmas Dojo",
+            "contact": {},
+            "location": {
+              "lat": 39.00536961313902,
+              "lng": -119.94795293285792,
+              "cc": "US",
+              "city": "Zephyr Cove",
+              "state": "NV",
+              "country": "United States",
+              "formattedAddress": ["Zephyr Cove, NV"]
+            },
+            "categories": [
+              {
+                "id": "52e81612bcbc57f1066b79ec",
+                "name": "Salsa Club",
+                "pluralName": "Salsa Clubs",
+                "shortName": "Salsa Club",
+                "icon": {
+                  "prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/arts_entertainment\/performingarts_dancestudio_",
+                  "suffix": ".png"
+                },
+                "primary": true
+              }
+            ],
+            "verified": false,
+            "stats": {
+              "checkinsCount": 9,
+              "usersCount": 4,
+              "tipCount": 0
+            },
+            "like": false
+          },
+          "likes": {
+            "count": 1,
+            "groups": [
+              {
+                "type": "friends",
+                "count": 1,
+                "items": [
+                  {
+                    "id": "585",
+                    "firstName": "cnelson",
+                    "lastName": "︻╦╤─",
+                    "gender": "male",
+                    "relationship": "friend",
+                    "photo": {
+                      "prefix": "https:\/\/irs0.4sqi.net\/img\/user\/",
+                      "suffix": "\/-HOJNPOC2XRWGCB5O.png"
+                    }
+                  }
+                ]
+              }
+            ],
+            "summary": "cnelson ︻╦╤─"
+          },
+          "like": false,
+          "photos": {
+            "count": 0,
+            "items": []
+          },
+          "posts": {
+            "count": 0,
+            "textCount": 0
+          },
+          "comments": {"count": 0},
+          "source": {
+            "name": "Swarm for iOS",
+            "url": "https:\/\/www.swarmapp.com"
+          }
+        }
+      ]
+    }
+  }
+}
