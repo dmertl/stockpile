@@ -4,7 +4,7 @@ from Foursquare import Checkin
 import foursquare
 import config
 
-engine = create_engine('sqlite:///foursquare.sqlite')
+engine = create_engine(config.settings['foursquare']['db'])
 Session = sessionmaker(bind=engine)
 session = Session()
 
