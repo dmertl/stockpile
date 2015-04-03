@@ -3,6 +3,10 @@ from sqlalchemy.orm import sessionmaker
 from Foursquare import Checkin
 import foursquare
 import config
+import logging
+
+# Set up logging
+logging.basicConfig()
 
 engine = create_engine(config.settings['foursquare']['db'])
 Session = sessionmaker(bind=engine)
