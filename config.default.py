@@ -7,7 +7,7 @@ settings = {
         # Foursquare Application Redirect URI
         "redirect_uri": "",
         # Connection string for SQLite database to save stockpile in
-        "db": "'sqlite:///db/foursquare.sqlite'"
+        "db": "sqlite:///db/foursquare.sqlite"
     }
 }
 
