@@ -11,10 +11,8 @@ class Test(unittest.TestCase):
         # Mock API
         Checkin.api = FoursquareApiTest()
 
-        # Create connection to test DB
-        # TODO: Move test DB creation and cleanup into somewhere shareable
-        os.remove('data/test_foursquare.sqlite')
-        engine = create_engine('sqlite:///db/test_foursquare.sqlite')
+        # Create connection to test DB in memory
+        engine = create_engine('sqlite://')
         Session = sessionmaker(bind=engine)
         session = Session()
         Model.Base.metadata.create_all(engine)
